@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1484</width>
+    <height>654</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Service">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Service</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Logon">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Logon</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Drivers">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Drivers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScheTasks">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ScheTasks</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="table_logon">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1461</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>icon</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>entry</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>description</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>publisher</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>image path</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>timestamp</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="table_service">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1461</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>icon</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>entry</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>description</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>publisher</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>image path</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>timestamp</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="table_drivers">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1461</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>icon</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>entry</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>description</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>publisher</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>image path</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>timestamp</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="table_schetasks">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1461</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>icon</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>entry</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>description</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>publisher</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>image path</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>timestamp</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="table_knowndlls">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>1461</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>icon</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>entry</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>description</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>publisher</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>image path</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>timestamp</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="Knowdlls">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>30</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KnownDlls</string>
+    </property>
+   </widget>
+   <zorder>Service</zorder>
+   <zorder>Logon</zorder>
+   <zorder>Drivers</zorder>
+   <zorder>ScheTasks</zorder>
+   <zorder>Knowdlls</zorder>
+   <zorder>table_drivers</zorder>
+   <zorder>table_knowndlls</zorder>
+   <zorder>table_logon</zorder>
+   <zorder>table_schetasks</zorder>
+   <zorder>table_service</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1484</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
